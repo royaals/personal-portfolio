@@ -50,7 +50,7 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const rightLists = ["NodeJS", "NextJS", "AWS"];
 
   const [copied, setCopied] = useState(false);
 
@@ -64,7 +64,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "royalsalins.dev@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -81,7 +81,7 @@ export const BentoGridItem = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-      {/* add img divs */}
+      
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
@@ -106,7 +106,7 @@ export const BentoGridItem = ({
           )}
         </div>
         {id === 6 && (
-          // add background animation , remove the p tag
+        
         
             <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
          
