@@ -125,10 +125,12 @@ export const navItems = [
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
+        "I am truly impressed by the level of professionalism and enthusiasm you demonstrated throughout your time working as an SDE intern. Your contributions have been invaluable, showcasing remarkable willingness to learn and adapt. Your hard work and dedication have been exceptional.",
+      name: "Rohan Shetty",
+      title: "Cloud Expert of Niveus solutions",
+    }
+    
+    
   ];
   
   export const companies = [
@@ -167,32 +169,26 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "SDE Intern",
+      desc: "Assisted in the development of a web and app based platform for managing and tracking client sales leads.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
+      title: "Open source Contributer",
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", 
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "SDE Intern",
+      desc: "Assisted in the development of a web and app based platform for managing and tracking client sales leads.",
       className: "md:col-span-2", 
       thumbnail: "/exp3.svg",
     },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
-    },
+  
   ];
   
   export const socialMedia = [
