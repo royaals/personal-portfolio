@@ -7,7 +7,7 @@ import { IoCopyOutline } from "react-icons/io5";
 import { cn } from "@/utils/cn";
 
 
-import { BackgroundGradientAnimation } from "./GradientBg";
+
 import GridGlobe from "./GridGlobe";
 
 import MagicButton from "../MagicButton";
@@ -37,7 +37,7 @@ export const BentoGridItem = ({
   id,
   title,
   description,
-  //   remove unecessary things here
+ 
   img,
   imgClassName,
   titleClassName,
@@ -96,7 +96,7 @@ export const BentoGridItem = ({
             <img
               src={spareImg}
               alt={spareImg}
-              //   width={220}
+             
               className="object-cover object-center w-full h-full"
             />
           )}
@@ -108,25 +108,23 @@ export const BentoGridItem = ({
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
           )}
         >
-          {/* change the order of the title and des, font-extralight, remove text-xs text-neutral-600 dark:text-neutral-300 , change the text-color */}
           <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
             {description}
           </div>
-          {/* add text-3xl max-w-96 , remove text-neutral-600 dark:text-neutral-300*/}
-          {/* remove mb-2 mt-2 */}
+   
           <div
             className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
           >
             {title}
           </div>
 
-          {/* for the github 3d globe */}
+       
           {id === 2 && <GridGlobe />}
 
-          {/* Tech stack list div */}
+          
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              {/* tech stack lists */}
+              
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                 {leftLists.map((item, i) => (
                   <span
@@ -155,15 +153,12 @@ export const BentoGridItem = ({
           )}
           {id === 6 && (
             <div className="mt-5 relative">
-              {/* button border magic from tailwind css buttons  */}
-              {/* add rounded-md h-8 md:h-8, remove rounded-full */}
-              {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
-              {/* add handleCopy() for the copy the text */}
+             
               <div
                 className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
                   }`}
               >
-                {/* <img src="/confetti.gif" alt="confetti" /> */}
+                
                
               </div>
 
