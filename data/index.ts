@@ -107,20 +107,20 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Contributions have been invaluable, and I am truly impressed by the level of professionalism and enthusiasm Royal have demonstrated throughout our project.",
-      name: "Rohan Shety",
+        "I am truly impressed by the level of professionalism and enthusiasm you demonstrated throughout your time working as an SDE intern. Your contributions have been invaluable, showcasing remarkable willingness to learn and adapt. Your hard work and dedication have been exceptional.",
+      name: "Rohan Shetty",
       title: "Cloud Expert of Niveus solutions",
     },
     {
       quote:
-        "Contributions have been invaluable, and I am truly impressed by the level of professionalism and enthusiasm Royal have demonstrated throughout our project.",
-      name: "Rohan Shety",
+        "I am truly impressed by the level of professionalism and enthusiasm you demonstrated throughout your time working as an SDE intern. Your contributions have been invaluable, showcasing remarkable willingness to learn and adapt. Your hard work and dedication have been exceptional.",
+      name: "Rohan Shetty",
       title: "Cloud Expert of Niveus solutions",
     },
     {
       quote:
-        "Contributions have been invaluable, and I am truly impressed by the level of professionalism and enthusiasm Royal have demonstrated throughout our project.",
-      name: "Rohan Shety",
+        "I am truly impressed by the level of professionalism and enthusiasm you demonstrated throughout your time working as an SDE intern. Your contributions have been invaluable, showcasing remarkable willingness to learn and adapt. Your hard work and dedication have been exceptional.",
+      name: "Rohan Shetty",
       title: "Cloud Expert of Niveus solutions",
     },
     {
