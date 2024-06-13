@@ -10,7 +10,7 @@ import { cn } from "@/utils/cn";
 
 import GridGlobe from "./GridGlobe";
 
-import MagicButton from "../MagicButton";
+import MagicButton from "./MagicButton";
 
 export const BentoGrid = ({
   className,
@@ -164,7 +164,7 @@ export const BentoGridItem = ({
 
               <MagicButton
                 title={copied ? "Email is Copied!" : "Copy my email address"}
-               
+                icon=""
                 position="left"
                 handleClick={handleCopy}
                 otherClasses="!bg-[#161A31]"
