@@ -1,8 +1,8 @@
+
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
 
-import Lottie from "react-lottie";
 
 import { cn } from "@/utils/cn";
 
@@ -52,19 +52,11 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["NodeJS", "NextJS", "Typescript"];
+  const rightLists = ["MongoDB","AWS","GraphQL" ];
 
   const [copied, setCopied] = useState(false);
 
-  const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
-   
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
 
   const handleCopy = () => {
     const text = "royalsalins.dev@gmail.com";
@@ -172,7 +164,7 @@ export const BentoGridItem = ({
                   }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
-              
+               
               </div>
 
               <MagicButton
