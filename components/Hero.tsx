@@ -42,7 +42,7 @@ const Hero = () => {
           />
 
         
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show my work"
              
