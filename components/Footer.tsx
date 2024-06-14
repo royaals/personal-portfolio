@@ -25,10 +25,11 @@ const Footer = () => {
           achieve your goals.
         </p>
         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=royalsalins.dev@gmail.com&su=Let's%20get%20in%20touch">
-  <MagicButton
-    title="Let's get in touch"
-    position="right"
-  />
+        <MagicButton
+            title="Let's get in touch"
+            icon={<FaLocationArrow />}
+            position="right"
+          />
 </a>
 
       </div>

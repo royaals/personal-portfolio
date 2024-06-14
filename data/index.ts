@@ -6,16 +6,7 @@ export const navItems = [
   ];
   
   export const gridItems = [
-    {
-      id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
-      description: "",
-      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-      imgClassName: "w-full h-full",
-      titleClassName: "justify-end",
-      img: "/b1.svg",
-      spareImg: "",
-    },
+  
     {
       id: 2,
       title: "I'm very flexible with time zone communications",
@@ -26,16 +17,7 @@ export const navItems = [
       img: "",
       spareImg: "",
     },
-    {
-      id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-      imgClassName: "",
-      titleClassName: "justify-center",
-      img: "",
-      spareImg: "",
-    },
+ 
     {
       id: 4,
       title: "Tech enthusiast with a passion for development.",
@@ -47,16 +29,7 @@ export const navItems = [
       spareImg: "/b4.svg",
     },
   
-    {
-      id: 5,
-      title: "Currently building a Payment Wallet",
-      description: "The Inside Scoop",
-      className: "md:col-span-3 md:row-span-2",
-      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-      titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
-      spareImg: "/grid.svg",
-    },
+   
     {
       id: 6,
       title: "Do you want to start a project together?",
@@ -107,25 +80,25 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "I am truly impressed by the level of professionalism and enthusiasm you demonstrated throughout your time working as an SDE intern. Your contributions have been invaluable, showcasing remarkable willingness to learn and adapt. Your hard work and dedication have been exceptional.",
+        "I am truly impressed by the level of professionalism and enthusiasm you demonstrated throughout your time working as an intern. Your contributions have been invaluable, showcasing remarkable willingness to learn and adapt. Your hard work and dedication have been exceptional.",
       name: "Rohan Shetty",
       title: "Cloud Expert of Niveus solutions",
     },
     {
       quote:
-        "I am truly impressed by the level of professionalism and enthusiasm you demonstrated throughout your time working as an SDE intern. Your contributions have been invaluable, showcasing remarkable willingness to learn and adapt. Your hard work and dedication have been exceptional.",
+        "I am truly impressed by the level of professionalism and enthusiasm you demonstrated throughout your time working as an intern. Your contributions have been invaluable, showcasing remarkable willingness to learn and adapt. Your hard work and dedication have been exceptional.",
       name: "Rohan Shetty",
       title: "Cloud Expert of Niveus solutions",
     },
     {
       quote:
-        "I am truly impressed by the level of professionalism and enthusiasm you demonstrated throughout your time working as an SDE intern. Your contributions have been invaluable, showcasing remarkable willingness to learn and adapt. Your hard work and dedication have been exceptional.",
+        "I am truly impressed by the level of professionalism and enthusiasm you demonstrated throughout your time working as an intern. Your contributions have been invaluable, showcasing remarkable willingness to learn and adapt. Your hard work and dedication have been exceptional.",
       name: "Rohan Shetty",
       title: "Cloud Expert of Niveus solutions",
     },
     {
       quote:
-        "I am truly impressed by the level of professionalism and enthusiasm you demonstrated throughout your time working as an SDE intern. Your contributions have been invaluable, showcasing remarkable willingness to learn and adapt. Your hard work and dedication have been exceptional.",
+        "I am truly impressed by the level of professionalism and enthusiasm you demonstrated throughout your time working as an intern. Your contributions have been invaluable, showcasing remarkable willingness to learn and adapt. Your hard work and dedication have been exceptional.",
       name: "Rohan Shetty",
       title: "Cloud Expert of Niveus solutions",
     }
@@ -172,22 +145,22 @@ export const navItems = [
       title: "SDE Intern",
       desc: "Assisted in the development of a web and app based platform for managing and tracking client sales leads.",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "/niveus_solutions_logo.jpeg",
     },
     {
       id: 2,
       title: "Open source Contributer",
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", 
-      thumbnail: "/exp2.svg",
+      thumbnail: "/gssoc.jpg",
     },
-    {
-      id: 3,
-      title: "SDE Intern",
-      desc: "Assisted in the development of a web and app based platform for managing and tracking client sales leads.",
-      className: "md:col-span-2", 
-      thumbnail: "/exp3.svg",
-    },
+    // {
+    //   id: 3,
+    //   title: "SDE Intern",
+    //   desc: "Assisted in the development of a web and app based platform for managing and tracking client sales leads.",
+    //   className: "md:col-span-2", 
+    //   thumbnail: "/EG.png",
+    // },
   
   ];
   

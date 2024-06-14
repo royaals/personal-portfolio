@@ -1,8 +1,8 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FiDownload } from "react-icons/fi";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-
+import Link from "next/link";
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
@@ -42,13 +42,15 @@ const Hero = () => {
           />
 
         
-          <a href="#projects">
-            <MagicButton
-              title="Show my work"
-              
+          <Link href="resume.pdf" download="royal.pdf">
+          <MagicButton
+              title="Resume"
+              icon={<FiDownload />}
               position="right"
             />
-          </a>
+          </Link>
+          
+        
         </div>
       </div>
     </div>
