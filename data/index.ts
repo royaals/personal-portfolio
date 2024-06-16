@@ -1,12 +1,11 @@
 export const navItems = [
-    { name: "About", link: "#about" },
+    { name: "Skills", link: "#skills" },
     { name: "Projects", link: "#projects" },
     { name: "Experience", link: "#experience" },
     { name: "Contact", link: "#contact" },
   ];
   
   export const gridItems = [
-  
     {
       id: 2,
       title: "I'm very flexible with time zone communications",
@@ -17,19 +16,6 @@ export const navItems = [
       img: "",
       spareImg: "",
     },
- 
-    {
-      id: 4,
-      title: "Tech enthusiast with a passion for development.",
-      description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-      imgClassName: "",
-      titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
-    },
-  
-   
     {
       id: 6,
       title: "Do you want to start a project together?",
@@ -39,8 +25,62 @@ export const navItems = [
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
       img: "",
       spareImg: "",
-    },
+    }
+  
+  
   ];
+  export const skills2 = [
+    { title: "React" },
+    { title: "Kubernetes" },
+    { title: "Grafana" },
+    { title: "Prometheus" },
+    { title: "New Relic" },
+    { title: "Monitoring and Logging" },
+    { title: "Testing" },
+    { title: "gRPC" },
+    { title: "Firebase" },
+    { title: "CI/CD" },
+    { title: "WebRTC" },
+    { title: "Auto Scaling" },
+    { title: "PubSubs" },
+    { title: "Message Queue" },
+    { title: "Redis" },
+    { title: "Serverless" },
+    { title: "Swagger" },
+    { title: "Open API" },
+    { title: "Hono" },
+    { title: "Generative AI" },
+    { title: "Turborepo" },
+    { title: "WebSocket" },
+  ];
+  
+  export const skills1 = [
+    { title: "Flask" },
+    { title: "Reverse Proxy" },
+    { title: "Nginx" },
+    { title: "Cloudflare" },
+    { title: "Next.js" },
+    { title: "Flutter flow" },
+    { title: "Flutter" },
+    { title: "AWS" },
+    { title: "Docker" },
+    { title: "Tailwind CSS" },
+    { title: "Zod" },
+    { title: "TypeScript" },
+    { title: "Prisma ORM" },
+    { title: "PostgreSQL" },
+    { title: "GCP" },
+    { title: "React.js" },
+    { title: "MongoDB" },
+    { title: "MySQL" },
+    { title: "Express.js" },
+    { title: "Node.js" },
+    { title: "JavaScript" },
+    { title: "Python" },
+    { title: "Java" },
+    { title: "C++" },
+  ];
+  
   
   export const projects = [
     {
