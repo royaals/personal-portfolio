@@ -11,7 +11,7 @@ import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
-
+import Contact from "@/components/Contact";
 
 const Home = () => {
   return (
@@ -24,6 +24,7 @@ const Home = () => {
         <Experience/>
         <Clients/>
         <Approach/>
+        <Contact/>
         <Footer/>
       </div>
     </main>

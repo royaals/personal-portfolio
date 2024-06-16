@@ -1,7 +1,7 @@
 "use client";
-
-import { cn } from "@/utils/cn";
 import React, { useEffect, useState } from "react";
+import { cn } from "@/utils/cn";
+import MagicButton from "./MagicButton"; // Adjust the import path as needed
 
 export const InfiniteSkillsMovingCards = ({
   items,
@@ -22,9 +22,9 @@ export const InfiniteSkillsMovingCards = ({
   useEffect(() => {
     addAnimation();
   }, []);
-  
+
   const [start, setStart] = useState(false);
-  
+
   function addAnimation() {
     if (containerRef.current && scrollerRef.current) {
       const scrollerContent = Array.from(scrollerRef.current.children);
@@ -41,7 +41,7 @@ export const InfiniteSkillsMovingCards = ({
       setStart(true);
     }
   }
-  
+
   const getDirection = () => {
     if (containerRef.current) {
       containerRef.current.style.setProperty(
@@ -50,15 +50,15 @@ export const InfiniteSkillsMovingCards = ({
       );
     }
   };
-  
+
   const getSpeed = () => {
     if (containerRef.current) {
       if (speed === "fast") {
-        containerRef.current.style.setProperty("--animation-duration", "20s");
-      } else if (speed === "normal") {
-        containerRef.current.style.setProperty("--animation-duration", "40s");
-      } else {
         containerRef.current.style.setProperty("--animation-duration", "80s");
+      } else if (speed === "normal") {
+        containerRef.current.style.setProperty("--animation-duration", "120s");
+      } else {
+        containerRef.current.style.setProperty("--animation-duration", "150s");
       }
     }
   };
@@ -80,21 +80,13 @@ export const InfiniteSkillsMovingCards = ({
         )}
       >
         {items.map((item, idx) => (
-          <li
-            className="relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-800 p-3 md:p-15 md:w-auto"
-            style={{
-              background: "rgb(4,7,29)",
-              backgroundColor: "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-            }}
-            key={idx}
-          >
-            <blockquote>
-              <span className="flex flex-col gap-1">
-                <span className="text-sm leading-[1.6] text-white-200 font-normal">
-                  {item.title}
-                </span>
-              </span>
-            </blockquote>
+          <li key={idx} className="flex-shrink-0">
+            <MagicButton
+              title={item.title}
+              icon={null} // Pass null if no icon is needed
+              position="left" // or "right" as needed
+              otherClasses="rounded-3xl" // Add any other classes you want
+            />
           </li>
         ))}
       </ul>

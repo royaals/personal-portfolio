@@ -22,7 +22,7 @@ const Hero = () => {
     document.body.removeChild(link);
   };
   return (
-    <div className="pb-20 pt-36">
+    <div className="py-60">
      
       <div>
         <Spotlight
@@ -37,7 +37,7 @@ const Hero = () => {
       </div>
 
       <div
-        className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
+        className="h-screen w-full dark:bg-black-100 bg-white 
        absolute top-0 left-0 flex items-center justify-center"
       >
        
@@ -55,7 +55,7 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
-          As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects, showcasing my expertise in web development.
+          As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects, showcasing my expertise in full stack development.
           </p>
           <div className="flex gap-3">
           <a href="#projects">

@@ -9,10 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-toast": "^1.1.5",
     "@react-three/drei": "^9.106.0",
     "@react-three/fiber": "^8.16.8",
     "@sentry/nextjs": "^8.9.2",
     "@types/three": "^0.165.0",
+    "axios": "^1.7.2",
+    "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.10",
     "mini-svg-data-uri": "^1.4.4",
@@ -21,7 +24,9 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
+    "react-loader-spinner": "^6.1.6",
     "react-lottie": "^1.2.4",
+    "reactstrap": "^9.2.2",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
     "three": "^0.165.0",
