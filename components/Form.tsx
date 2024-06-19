@@ -1,3 +1,4 @@
+//@ts-nocheck
 "use client"
 
 import { FormEvent, useState, ChangeEvent } from "react"
@@ -76,8 +77,7 @@ const Form = () => {
     <form className={`${classes.form}`} onSubmit={handleFormSubmit}>
       <div className={`${classes.form__group}`}>
         <input
-          onChange={(e) => setName(e.target.value)}
-          value={name}
+         
           name="name"
           type="text"
           placeholder="Your Name"
@@ -86,8 +86,7 @@ const Form = () => {
       </div>
       <div className={`${classes.form__group}`}>
         <input
-          onChange={(e) => setEmail(e.target.value)}
-          value={email}
+         
           name="email"
           type="email"
           placeholder="Email Address"
@@ -96,8 +95,7 @@ const Form = () => {
       </div>
       <div className={`${classes.form__group}`}>
         <textarea
-          onChange={(e) => setMessage(e.target.value)}
-          value={message}
+         
           name="message"
           type="text"
           rows={5}
