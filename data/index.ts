@@ -186,6 +186,10 @@ export const navItems = [
       desc: "Assisted in the development of a web and app based platform for managing and tracking client sales leads.",
       className: "md:col-span-2",
       thumbnail: "/niveus_solutions_logo.jpeg",
+      name: "Niveus Solutions",
+      url: "https://niveussolutions.com/",
+      startDate: "Nov 2023",
+      endDate: "Feb 2024",
     },
     {
       id: 2,
@@ -193,6 +197,10 @@ export const navItems = [
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", 
       thumbnail: "/gssoc.jpg",
+      name: "GSSoC",
+      url: "https://gssoc.girlscript.tech/",
+      startDate: "Nov 2023",
+      endDate: "Present",
     },
     // {
     //   id: 3,

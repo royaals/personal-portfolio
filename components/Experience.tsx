@@ -2,7 +2,7 @@ import React from "react";
 
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
-
+import Link from "next/link"
 const Experience = () => {
   return (
     <div className="py-20 my-40 w-full" id="experience">
@@ -38,6 +38,21 @@ const Experience = () => {
                 <h1 className="text-start text-xl md:text-2xl font-bold">
                   {card.title}
                 </h1>
+                <div className="flex flex-col">
+                <Link
+                  href={card.url}
+                  target="_blank"
+                  className="flex items-center gap-2 hover:underline underline-offset-2 text-slate-300 hover:text-slate-100 transition-colors"
+                >
+                  <p>
+                    {card.name}{" "}
+                   
+                  </p>
+                </Link>
+                <p className="justify-start">
+                  {card.startDate} - {card.endDate ?? "present"}
+                </p>
+              </div>
                 <p className="text-start text-white-100 mt-3 font-semibold">
                   {card.desc}
                 </p>

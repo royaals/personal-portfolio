@@ -121,7 +121,7 @@ const Contact = () => {
               <Link
                 
                 aria-label="LinkedIn Account"
-                href="www.linkedin.com/in/royalsalins"
+                href="https://www.linkedin.com/in/royalsalins"
                 target="_blank"
               >
                 <RiLinkedinFill />
