@@ -15,7 +15,7 @@ const Contact = () => {
   const [details, setDetails] = useState({
     email: "",
     name: "",
-    message: "",
+    desc: "",
   });
   const [loading, setLoading] = useState(false);
   const { toast } = useToast();
@@ -23,7 +23,7 @@ const Contact = () => {
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
-    if (!details.email || !details.name || !details.message) {
+    if (!details.email || !details.name || !details.desc) {
       return toast({
         variant: "destructive",
         title: "Please fill the fields",
@@ -32,7 +32,7 @@ const Contact = () => {
 
     try {
       setLoading(true);
-      const response = await axios("/api/email", {
+      const response = await axios("/api/mail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -44,7 +44,7 @@ const Contact = () => {
         setDetails({
           email: "",
           name: "",
-          message: "",
+          desc: "",
         });
         setSubmitted(true);
         toast({
@@ -159,12 +159,12 @@ const Contact = () => {
                   />
                   <textarea
                     className="text-md border-transparent rounded-lg block w-full p-2.5 bg-[#171f38] placeholder-gray-400 text-white"
-                    name="message"
+                    name="desc"
                     placeholder="Your Message"
                     required
                     rows="4"
                     autoComplete="off"
-                    value={details.message}
+                    value={details.desc}
                     onChange={onChange}
                   ></textarea>
                   <button
