@@ -38,7 +38,7 @@ const Experience = () => {
                 <h1 className="text-start text-xl md:text-2xl font-bold">
                   {card.title}
                 </h1>
-                <div className="flex flex-col">
+                <div className="flex mt-1 flex-col">
                 <Link
                   href={card.url}
                   target="_blank"
