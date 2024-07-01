@@ -4,9 +4,11 @@ import { socialMedia } from "@/data";
 import MagicButton from "./ui/MagicButton";
 import Link from "next/link";
 const Footer = () => {
+  const date = new Date();
+     const year = date.getFullYear();
   return (
     <footer className="w-full  pb-10 mb-[100px] md:mb-5" id="contact">
-   
+     
   
             
 
@@ -41,8 +43,8 @@ const Footer = () => {
 
       </div> */}
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Royal
+        <p className="md:text-base text-xs md:font-extralight font-extralight">
+          Copyright © {year} Developed by Royal. All right reserved
         </p>
 
        

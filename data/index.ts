@@ -183,7 +183,7 @@ export const navItems = [
     {
       id: 1,
       title: "SDE Intern",
-      desc: "Assisted in the development of a web and app based platform for managing and tracking client sales leads.",
+      desc: "Assisted in the development of a web based platform for tracking client sales leads and Mobile Banking app",
       className: "md:col-span-2",
       thumbnail: "/niveus_solutions_logo.jpeg",
       name: "Niveus Solutions",
@@ -194,7 +194,7 @@ export const navItems = [
     {
       id: 2,
       title: "Open source Contributer",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      desc: "Contributed to open source codebase by implementing new features, fixing bugs and improving docs. ",
       className: "md:col-span-2", 
       thumbnail: "/gssoc.jpg",
       name: "GSSoC",

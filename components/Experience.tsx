@@ -49,9 +49,7 @@ const Experience = () => {
                    
                   </p>
                 </Link>
-                <p className="justify-start">
-                  {card.startDate} - {card.endDate ?? "present"}
-                </p>
+               
               </div>
                 <p className="text-start text-white-100 mt-3 font-semibold">
                   {card.desc}
