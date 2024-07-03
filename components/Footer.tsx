@@ -44,7 +44,7 @@ const Footer = () => {
       </div> */}
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-xs md:font-extralight font-extralight">
-          Copyright © {year} Developed by Royal. All right reserved
+          Copyright © {year} Royal. All right reserved
         </p>
 
        
