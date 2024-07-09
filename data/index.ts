@@ -86,7 +86,7 @@ export const navItems = [
     {
       id: 1,
       title: "Payment Wallet App",
-      des: "A comprehensive financial application that allows users to add money to wallet and perform peer-to-peer transactions.",
+      des: "A Comprehensive Financial Application that allows users to add money to wallet and perform peer-to-peer transactions.",
       img: "/payzen-page.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", ],
       link: "https://github.com/royaals/Payzen-wallet",
@@ -95,26 +95,26 @@ export const navItems = [
     {
       id: 2,
       title: "AI Code Modernization SaaS ",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      des: "A Real Software-as-a-Service app with AI Legacy Code Modernisation using the latest tech stack.",
       img: "/codegram.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-      link: "https://codegram-peach.vercel.app/",
+      link: "https://codegram.devprojects.world/",
     },
     {
       id: 3,
       title: "Social Media Application",
-      des: "A social media application that supports user interaction, content sharing and community building.",
+      des: "A Social Media Application that supports user interaction, content sharing and community building.",
       img: "/blogr-page.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
-      link: "https://blogr-bice.vercel.app/blogr",
+      link: "https://blogr.devprojects.world",
     },
     {
       id: 4,
       title: "Video Conferencing App",
-      des: "A video conferencing tool designed to provide users with secure real-time meeting functionalities.",
+      des: "A Video Conferencing Tool designed to provide users with secure real-time meeting functionalities.",
       img: "/converselanding.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://converse-three.vercel.app/converse",
+      link: "https://converse.devprojects.world",
     },
   ];
   
