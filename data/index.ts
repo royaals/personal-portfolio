@@ -103,7 +103,7 @@ export const navItems = [
     {
       id: 3,
       title: "Social Media Application",
-      des: "A Social Media Application that supports user interaction, content sharing and community building.",
+      des: "A Social Media Application that supports user interaction, content sharing and community building",
       img: "/blogr-page.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
       link: "https://blogr.devprojects.world",
