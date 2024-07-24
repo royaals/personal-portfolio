@@ -89,7 +89,7 @@ export const navItems = [
       des: "A Comprehensive Financial Application that allows users to add money to wallet and perform peer-to-peer transactions.",
       img: "/payzen-page.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", ],
-      link: "https://github.com/royaals/Payzen-wallet",
+      link: "http://payzen.devprojects.world",
     },
  
     {
@@ -98,7 +98,7 @@ export const navItems = [
       des: "A Real Software-as-a-Service app with AI Legacy Code Modernisation using the latest tech stack.",
       img: "/codegram.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-      link: "https://codegram.devprojects.world/",
+      link: "https://codegram.devprojects.world",
     },
     {
       id: 3,
