@@ -97,7 +97,7 @@ export const navItems = [
       title: "AI Code Modernization SaaS ",
       des: "A Real Software-as-a-Service app with AI Legacy Code Modernisation using the latest tech stack.",
       img: "/codegram.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "python.svg","postgre.svg", "aws.svg"],
       link: "https://codegram.devprojects.world",
     },
     {
@@ -105,7 +105,7 @@ export const navItems = [
       title: "Social Media Application",
       des: "A Social Media Application that supports user interaction, content sharing and community building",
       img: "/blogr-page.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg", "dock.svg"],
       link: "https://blogr.devprojects.world",
     },
     {
@@ -113,7 +113,7 @@ export const navItems = [
       title: "Video Conferencing App",
       des: "A Video Conferencing Tool designed to provide users with secure real-time meeting functionalities.",
       img: "/converselanding.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg", "dock.svg"],
       link: "https://converse.devprojects.world",
     },
   ];
