@@ -88,7 +88,7 @@ export const navItems = [
       title: "Payment Wallet App",
       des: "A Comprehensive Financial Application that allows users to add money to wallet and perform peer-to-peer transactions.",
       img: "/payzen-page.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg","postgre.svg", "dock.svg" ],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg","postgre.svg","prisma-2.svg", "dock.svg" , "kubernetes.svg"],
       link: "http://payzen.devprojects.world",
     },
  

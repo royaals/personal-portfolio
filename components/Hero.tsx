@@ -65,7 +65,7 @@ const Hero = () => {
               position="right"
             />
           </a>
-          <a onClick={() => openAndDownloadResume('resume.pdf', 'royal.pdf')} style={{ cursor: 'pointer' }}>
+          <a onClick={() => openAndDownloadResume('RoyalSalins_Resume.pdf', 'RoyalSalins_Resume.pdf')} style={{ cursor: 'pointer' }}>
         <MagicButton
           title="Resume"
           icon={<FiDownload />}
