@@ -191,18 +191,7 @@ export const navItems = [
       url: "https://niveussolutions.com/",
       startDate: "Nov 2023",
       endDate: "Feb 2024",
-    },
-    {
-      id: 2,
-      title: "Open source Contributer",
-      desc: "Contributed to open source codebase by implementing new features, fixing bugs and improving docs. ",
-      className: "md:col-span-2", 
-      thumbnail: "/gssoc.jpg",
-      name: "GSSoC",
-      url: "https://gssoc.girlscript.tech/",
-      startDate: "Nov 2023",
-      endDate: "Present",
-    },
+    }
     // {
     //   id: 3,
     //   title: "SDE Intern",
