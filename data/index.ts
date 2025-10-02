@@ -89,7 +89,7 @@ export const navItems = [
       des: "A Comprehensive Financial Application that allows users to add money to wallet and perform peer-to-peer transactions.",
       img: "/payzen-page.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg","postgre.svg","prisma-2.svg", "dock.svg" , "kubernetes.svg"],
-      link: "http://payzen.devprojects.world",
+      link: "http://payzen.devsprojects.in",
     },
  
     {
@@ -98,7 +98,7 @@ export const navItems = [
       des: "A Real Software-as-a-Service app with AI Legacy Code Modernisation using the latest tech stack.",
       img: "/codegram.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "python.svg","postgre.svg", "aws.svg"],
-      link: "https://codegram.devprojects.world",
+      link: "https://codegram.devsprojects.in",
     },
     {
       id: 3,
@@ -106,7 +106,7 @@ export const navItems = [
       des: "A Social Media Application that supports user interaction, content sharing and community building",
       img: "/blogr-page.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/c.svg", "dock.svg"],
-      link: "https://blogr.devprojects.world",
+      link: "https://blogr.devsprojects.in",
     },
     {
       id: 4,
@@ -114,7 +114,7 @@ export const navItems = [
       des: "A Video Conferencing Tool designed to provide users with secure real-time meeting functionalities.",
       img: "/converselanding.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg", "dock.svg"],
-      link: "https://converse.devprojects.world",
+      link: "https://converse.devsprojects.in",
     },
   ];
   
@@ -127,9 +127,9 @@ export const navItems = [
     },
     {
       quote:
-        "I am truly impressed by the level of professionalism and enthusiasm you demonstrated throughout your time working as an intern. Your contributions have been invaluable, showcasing remarkable willingness to learn and adapt. Your hard work and dedication have been exceptional.",
-      name: "Rohan Shetty",
-      title: "Cloud Expert of Niveus solutions",
+        "He has extensively worked on our Operations and Compliance dashboard. During the period with us, his Development skills truly amazed us. He is a fast learner, quick to adapt, and has consistently showcased professionalism and enthusiasm in his work.",
+      name: "Sajal Sarwar",
+      title: "CTO of BitSave",
     },
     {
       quote:
@@ -137,12 +137,12 @@ export const navItems = [
       name: "Rohan Shetty",
       title: "Cloud Expert of Niveus solutions",
     },
-    {
+      {
       quote:
-        "I am truly impressed by the level of professionalism and enthusiasm you demonstrated throughout your time working as an intern. Your contributions have been invaluable, showcasing remarkable willingness to learn and adapt. Your hard work and dedication have been exceptional.",
-      name: "Rohan Shetty",
-      title: "Cloud Expert of Niveus solutions",
-    }
+        "He has extensively worked on our Operations and Compliance dashboard. During the period with us, his Development skills truly amazed us. He is a fast learner, quick to adapt, and has consistently showcased professionalism and enthusiasm in his work.",
+      name: "Sajal Sarwar",
+      title: "CTO of BitSave",
+    },
     
     
   ];
@@ -188,17 +188,19 @@ export const navItems = [
       className: "md:col-span-2",
       thumbnail: "/niveus_solutions_logo.jpeg",
       name: "Niveus Solutions",
-      url: "https://niveussolutions.com/",
-      startDate: "Nov 2023",
-      endDate: "Feb 2024",
-    }
-    // {
-    //   id: 3,
-    //   title: "SDE Intern",
-    //   desc: "Assisted in the development of a web and app based platform for managing and tracking client sales leads.",
-    //   className: "md:col-span-2", 
-    //   thumbnail: "/EG.png",
-    // },
+      url: "https://niveussolutions.com",
+    
+    },
+    {
+      id: 2,
+      title: "Full Stack Developer Intern",
+      desc: "Assisted in the development of an Operations & Compliance dashboard for the operations team to manage and track client accounts.",
+      className: "md:col-span-2", 
+      thumbnail: "/bitsave.jpg",
+      name: "BitSave",
+      url: "https://www.bitsave.club",
+
+    },
   
   ];
   
